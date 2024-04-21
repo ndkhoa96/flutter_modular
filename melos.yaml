@@ -11,17 +11,17 @@ command:
     # # Only allow versioning to happen on main branch.
     branch: main
     # Additionally build a changelog at the root of the workspace.
-    workspaceChangelog: true
+    releaseUrl: true
 
 scripts:
   lint:all:
     run: melos run analyze-ci && melos run format-ci
     description: Run all static analysis checks.
-    
+
   format:
     run: melos exec dart format . --fix
     description: Run `dart format` in all packages.
-      
+
   # analyze:
   #   run: melos exec -- flutter analyze .
   #   description: Run `dart analyze` in all packages.
