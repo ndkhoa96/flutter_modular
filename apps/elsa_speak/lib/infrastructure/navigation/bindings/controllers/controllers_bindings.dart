@@ -1,0 +1,1 @@
+export 'package:elsa_speak/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
