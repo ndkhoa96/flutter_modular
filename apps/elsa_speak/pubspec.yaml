@@ -2,21 +2,34 @@ name: elsa_speak
 version: 1.0.0+1
 publish_to: none
 description: A new Flutter project.
-environment: 
-  sdk: '>=3.3.4 <4.0.0'
+environment:
+  sdk: ">=3.3.4 <4.0.0"
 
-dependencies: 
+dependencies:
   cupertino_icons: ^1.0.6
   get: 4.6.6
-  flutter: 
+  flutter:
     sdk: flutter
-  melos_dependency: ^0.0.1
+  melos_dependency: 0.0.1
+  flutter_riverpod:
+  freezed_annotation:
+  json_annotation:
 
-dev_dependencies: 
+  drift:
+  sqlite3_flutter_libs:
+  path_provider: ^2.0.13
+  path: ^1.8.3
+
+dev_dependencies:
   flutter_lints: 3.0.2
-  flutter_test: 
+  flutter_test:
     sdk: flutter
 
-flutter: 
-  uses-material-design: true
+  build_runner:
+  json_serializable:
+  drift_dev:
+  mockito:
+  freezed:
 
+flutter:
+  uses-material-design: true

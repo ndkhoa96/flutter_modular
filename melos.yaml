@@ -1,4 +1,5 @@
 name: flutter_monorepo
+repository: https://github.com/ndkhoa96/flutter_modular
 
 packages:
   - apps/**
